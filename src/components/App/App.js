@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Form from '../Form/Form';
 
 class App extends Component {
   render() {
@@ -8,6 +9,7 @@ class App extends Component {
         <header>
           <h1>React Track Runner</h1>
         </header>
+        <Form />
       </div>
     );
   }
